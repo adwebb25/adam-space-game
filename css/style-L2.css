@@ -9,209 +9,134 @@ body {
   background-size: 2500px;
   background-position: center; */
 }
+button{
+  width: 150%;
+  height: 150%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  z-index: 5;
+}
 audio {
   display: none;
 }
 
 .button1 {
-  font-size: 16px;
-  color: white;
-  position: relative;
   top: 205%;
   left: 364%;
-  transform: translate(-50%, -50%);
   width: 25%;
   height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  background:transparent;
 }
 
 .button2 {
-  font-size: 16px;
-  color: white;
-  position: relative;
   top: 16%;
   left: 48%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  background:transparent;
 }
 
 .button3 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 250%;
-  left: 180%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 178%;
+  left: 48%;
+  background:transparent;
 }
 
 .button4 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 180%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 330%;
+  left: 48%;
+  background:transparent;
 }
 
 .button5 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 350%;
-  left: 200%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 330%;
+  left: 207%;
+  background:transparent;
 }
 
 .button6 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 400%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 178%;
+  left: 207%;
+  background: transparent;
 }
 
 .button7 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 600%;
-  left: 500%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 25%;
+  left: 207%;
+  background: transparent;
 }
 
 .button8 {
-  font-size: 16px;
-  color: white;
-  position: relative;
   top: 300%;
-  left: 300%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  left: 365%;
+  background:transparent;
 }
 
 .button9 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 300%;
-  left: 400%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 110%;
+  left: 365%;
+  background:transparent;
 }
 
 .button10 {
-  font-size: 16px;
-  color: white;
-  position: relative;
-  top: 30%;
-  left: 500%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 20%;
-  /* padding: 75px; */
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  background: white;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-  z-index: 5;
+  top: 10%;
+  left: 365%;
+  background:transparent;
 }
+
+.button11 {
+  top: 10%;
+  left: 520%;
+  background:transparent;
+}
+
+.button12 {
+  top: 174%;
+  left: 520%;
+  background:transparent;
+}
+
+.button13 {
+  top: 330%;
+  left: 520%;
+  background:transparent;
+}
+
+.button14 {
+  top: 1030%;
+  left: 1235%;
+  background:transparent;
+}
+
+.button15 {
+  top: 1030%;
+  left: 950%;
+  background:transparent;
+}
+
+
+.button16 {
+  top: 75%;
+  left: 509%;
+  background: transparent;
+}
+
+.button17 {
+  top: 238%;
+  left: 508%;
+  background:transparent;
+}
+
+.button19 {
+  top: 1030%;
+  left: 1200%;
+  background:transparent;
+}
+
 .div-box1 {
   background-color: transparent;
   width: 300px;
@@ -278,6 +203,62 @@ audio {
   background-color: transparent;
   width: 300px;
   height: 300px;
+  position: absolute;
+}
+
+.div-box10 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.div-box11 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.div-box12 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.div-box13 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.div-box14 {
+  background-color: transparent;
+  width: 100px;
+  height: 60px;
+  position: absolute;
+}
+
+.div-box15 {
+  background-color:transparent;
+  width: 100px;
+  height: 60px;
+  position: absolute;
+}
+
+.div-box16 {
+  background-color:transparent;
+  width: 420px;
+  height: 420px;
+  position: absolute;
+}
+
+.div-box17 {
+  background-color: transparent;
+  width: 420px;
+  height: 420px;
   position: absolute;
 }
 
