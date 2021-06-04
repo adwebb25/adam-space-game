@@ -4,6 +4,13 @@ body {
 button {
   position: relative;
 }
+
+#div
+{
+ width: 100%;
+ height: 100%;
+}
+
 #radioImage {
   color: blue;
 }
