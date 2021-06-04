@@ -1,4 +1,4 @@
-setTimeout(function(){alert("You failed pig brain! Refresh and try again")},30000);
+setTimeout(function(){alert("You failed pig brain! Refresh and try again")},60000);
 
 function myFunction() {
     alert("keep looking you sucker!");
