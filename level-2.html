@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style-L2.css">
     <link rel="stylesheet" href="css/twinkle.css">
 </head>
-<body onload="alertUser('Congratulations! you found the radio..But scary aliens and a black hole have warped it into hundreds of replicas. To find your actual radio you must locate whcih one is playing your favourite song - SPACEMAN! If you can find the right one and tuen off the tune, you can move onto level three)">
+<body onload="alertUser('Congratulations! you found the radio..But scary aliens and a black hole have warped it into hundreds of cheap crappy replicas. To find your original radio you must locate which one is playing your favourite song - SPACEMAN! If you can find it and turn it OFF, then you have completed your challenge. Only then can you scroll down and move on to the next level')">
   
   <div class="blob">
     <svg version="1.1" viewBox="0 0 310 350">
@@ -77,13 +77,15 @@
     <button onclick="maleScream.play()"class="button15">
   </div>
 
-  <div class="div-box16">
+  <!-- <div class="div-box16">
     <button onclick="whistle.play()"class="button16">
-  </div>
+  </div> -->
 
-  <div class="div-box17">
+  <!-- <div class="div-box17">
     <button onclick="whistle.play()"class="button17">
-  </div>
+  </div> -->
+
+
 
 
   <div class="alien-box"></div>
@@ -91,16 +93,6 @@
   <div class="alien-box2"></div>
 
   <div class="alien-box3"></div>
-
-  
-  <!-- <div class="alien"></div> -->
-
-    <!-- <div class="div-box2">
-      <button class="button">test</button>
-
-  </div> -->
-
-
   
 
     <div class="all-radios">
@@ -779,25 +771,23 @@
       <img class="border-right" src="/assets/radio-75px.png" alt="" />
       
       <img class="border-right" src="/assets/radio-75px.png" alt="" />
-    
 
-    </div>
       
-        
-                                                          
+<div class="next-stage-div">
+  <button class="next-level-button" onclick="window.parent.postMessage('nextLevel')">
+    Next Level
+  </button>
 
+</div>
+      
 
+      <div>
+
+     
+      
     
 
-        
-
-
-
-  
-
-    <audio src="/AUDIO/BABYLON ZOO ◊ Spaceman (Official Video) (320  kbps).mp3"></audio>
-
-
+        <audio src="/AUDIO/BABYLON ZOO ◊ Spaceman (Official Video) (320  kbps).mp3"></audio>
 
     <script src="/javascript/L2.js"></script>
 

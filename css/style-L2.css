@@ -1,13 +1,13 @@
 body {
   background-image: url(/assets/milky-way.jpg);
-  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
   position: absolute;
   margin: 0;
   background-size: 2500px;
-  background-position: center; */
+  background-position: center;
 }
 button{
   width: 150%;
@@ -143,6 +143,23 @@ audio {
   background:transparent;
 }
 
+.next-level-button {
+  background-color: #d9d9d9;
+  font-family: "Space Mono", monospace;
+  font-size: 30px;
+  width: 300px;
+  height: 90px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 169%;
+  right: 0.5%;
+  bottom: 5%
+  
+}
+
 .div-box1 {
   background-color: transparent;
   width: 300px;
@@ -268,6 +285,13 @@ audio {
   position: absolute;
 }
 
+.div-box18 {
+  background-color: transparent;
+  width: 420px;
+  height: 500px;
+  position: absolute;
+}
+
 div {
   display: block;
   width: 100%;
@@ -278,10 +302,6 @@ img {
   padding: 10px;
   background-color: transparent;
 }
-/* .all-radios{
-  width: 1000px;
-  height: ;
-} */
 
 /* .div-box2 {
   background-color: green;
@@ -538,4 +558,7 @@ img {
     bottom: 250px;
     border-radius: 50% 50% 50% 50%;
   }
+ 
+
 }
+
