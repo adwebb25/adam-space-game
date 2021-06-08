@@ -160,6 +160,11 @@ audio {
   
 }
 
+.next-stage-div {
+  position: absolute;
+  top: 180%;
+}
+
 .div-box1 {
   background-color: transparent;
   width: 300px;

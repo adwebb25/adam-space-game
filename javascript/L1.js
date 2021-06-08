@@ -25,9 +25,6 @@ function myFunction6(){
     alert("That's planet earth exploding into a gazillion pieces..definitely NOT there")
 }
 
-// function myFunction7() {
-//     alert("test to work")
-// }
 
 function level2Alert(){
 alert("test");
