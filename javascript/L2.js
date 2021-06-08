@@ -2,7 +2,7 @@ function alertUser(msg) {
     alert(msg);
 }
 
-setTimeout(function(){alert("CLUE!! - Find the radio that sounds like a man falling off a cliff, then you are close!")},45000);
+setTimeout(function(){alert("The aliens designed this to be REALLLY F*CKING ANNOYING. But here is a CLUE!! - Find the radio that sounds like a man falling off a cliff, then you are close!")},45000);
 
 setTimeout(function(){alert("CLUE!! - The black hole of death is protecting your radio!")},90000);
 
