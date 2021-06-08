@@ -17,7 +17,7 @@ function myFunction4() {
 }
 
 function myFunction5(){
-   alert("Check out the star just above me that is a few billion light years away....")
+   alert("Check out the star a few billion light years away, more in the centre....")
 }
 
 
